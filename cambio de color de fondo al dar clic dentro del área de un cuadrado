@@ -1,0 +1,16 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+
+  background(0, 200, 200)
+  
+  if (mouseX > 150 && mouseX < 250 && mouseY > 150 && mouseY < 250 && mouseIsPressed) {
+
+    background(0, 100, 100)
+   
+  }
+ fill(200);
+    rect(150, 150, 100, 100);
+}
